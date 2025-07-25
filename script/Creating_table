@@ -9,7 +9,7 @@ Create Table  bronze.crm_crust_info
 		cst_create_date date
 );
 -- creating another table --
-create table bronze.prd_info
+create table bronze.crm_prd_info
 (prd_id int,
 		prd_key nvarchar(50) ,
 		prd_nm nvarchar (50) ,
