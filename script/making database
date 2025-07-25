@@ -1,25 +1,21 @@
-/* This is the script for creating Database and Schema 
-the schema contain  bronze ,  siver and  gold */ 
--- warning this will not work if you have already database name firstdatabaseaWarehouse--
+--first go to master for coming back form all the database -- 
 
+use master;
 
---first go to master for comeing back form all the database -- 
- use master;
+-- creating database --
 
--- creating database 
 create database firstDataWarehouse;
-go    
-
+   go
 
 -- database is created now use that database for creating schema--
+
 use firstDataWarehouse ;
-go 
-
-
+   go 
 --Now creating Schema--
+
 create schema bronze ;
-go 
+   go 
 create schema silver ;
-go
+   go
 create schema gold ;
-go 
+  go 
